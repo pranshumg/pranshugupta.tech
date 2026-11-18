@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pranshu Gupta</title>
+  <meta name="description" content="Pranshu Gupta — Computer Science undergrad and software engineer. Spring Boot, React, PostgreSQL and competitive programming." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <script>
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <header class="nav">
+    <a href="./" class="logo"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M44.05 14.80A21 21 0 1 0 53 32H43" /><path d="M25 42V22H29A5 5 0 0 1 29 32H25" /></svg><span>Pranshu Gupta</span></a>
+    <nav class="nav-links" aria-label="Links">
+      <a href="resume.pdf" target="_blank" rel="noopener">Resume ↗</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+        <svg class="i-sun" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="i-moon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="intro-top">
+        <div class="avatar">
+          <span aria-hidden="true">PG</span>
+          <img src="avatar.jpg" alt="Pranshu Gupta" onerror="this.remove()" />
+        </div>
+        <nav class="socials" aria-label="Social links">
+          <a href="mailto:pranshumg@gmail.com" aria-label="Email" title="Email"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></a>
+          <a href="https://www.linkedin.com/in/pranshumg/" aria-label="LinkedIn" title="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://github.com/pranshumg" aria-label="GitHub" title="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+          <a href="https://x.com/pranshumg" aria-label="X" title="X" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.63 7.58H.48l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.48 3.24H4.3l13.31 17.41z"/></svg></a>
+          <a href="https://codeforces.com/profile/pranshumg" aria-label="Codeforces" title="Codeforces" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3A1.5 1.5 0 0 1 0 19.5V9a1.5 1.5 0 0 1 1.5-1.5h3zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 19.5v-15A1.5 1.5 0 0 1 10.5 3h3zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5h3z"/></svg></a>
+          <a href="https://leetcode.com/u/kajjuu" aria-label="LeetCode" title="LeetCode" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor"><path d="M13.48 0a1.37 1.37 0 0 0-.96.44L7.12 6.21l-2.86 3.06a5.27 5.27 0 0 0-1.11 1.73 5.75 5.75 0 0 0 .02 3.94c.25.68.64 1.3 1.16 1.83l4.36 4.39a5.67 5.67 0 0 0 7.88.17l2.6-2.42a1.37 1.37 0 1 0-1.87-2.01l-2.6 2.42a2.92 2.92 0 0 1-4.06-.09L6.3 14.83a2.83 2.83 0 0 1-.14-3.84L9.08 7.9l5.4-5.77A1.37 1.37 0 0 0 13.48 0zM9.6 13.46a1.37 1.37 0 0 0 0 2.75h10.2a1.37 1.37 0 0 0 0-2.75H9.6z"/></svg></a>
+        </nav>
+      </div>
+      <p>
+        I’m <strong>Pranshu</strong>, a software engineer passionate about problem-solving, algorithms,
+        and building efficient, impactful software.
+      </p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <ul class="list">
+        <li class="row">
+          <span class="icon icon-logo"><img src="drdo.png" alt="DRDO logo" width="38" height="38" /></span>
+          <div class="row-main">
+            <p class="row-title">DRDO</p>
+            <p class="row-sub">Software Intern · Delhi</p>
+          </div>
+          <p class="row-date">Jun 2026 – Jul 2026</p>
+        </li>
+      </ul>
+      <ul class="notes">
+        <li>Built a Spring Boot backend that automates atmospheric data ingestion and serves ML-based electromagnetic wave propagation predictions.</li>
+        <li>Designed a secure PostgreSQL database with Flyway migrations, indexing, pgcrypto encryption and HikariCP connection pooling.</li>
+        <li>Secured the APIs with JWT authentication and role-based access control, and tracked API performance with Micrometer metrics.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="list plain">
+        <li>
+          <a class="row" href="https://github.com/pranshumg/ShrinkLink" target="_blank" rel="noopener">
+            <div class="row-main">
+              <p class="row-title">ShrinkLink</p>
+              <p class="row-sub">URL shortener with collision-free codes, sub-100ms redirects and click analytics.</p>
+            </div>
+            <span class="row-date arrow">GitHub ↗</span>
+          </a>
+        </li>
+        <li>
+          <a class="row" href="https://github.com/pranshumg/Persona" target="_blank" rel="noopener">
+            <div class="row-main">
+              <p class="row-title">Persona</p>
+              <p class="row-sub">One public page for all your links, with a live dashboard to add, reorder and hide them.</p>
+            </div>
+            <span class="row-date arrow">GitHub ↗</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt><dd>C/C++, Java, JavaScript, Python, SQL, HTML/CSS</dd>
+        <dt>Frameworks</dt><dd>Spring Boot, React.js, Next.js, Node.js, Express.js, Tailwind CSS</dd>
+        <dt>Databases</dt><dd>PostgreSQL, MongoDB</dd>
+        <dt>Tools</dt><dd>Git, Linux, Maven, JUnit</dd>
+      </dl>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Pranshu Gupta</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
