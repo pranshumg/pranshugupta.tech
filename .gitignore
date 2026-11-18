@@ -1,2 +1,5 @@
 # Local editor/preview settings, not part of the website
 .claude/
+
+# Logo design drafts (kept locally, not published)
+logo/
